@@ -1,0 +1,335 @@
+.divTitulo {
+    background-color: #4fa1c1;
+    height: 60px;
+    top: 0%;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+}
+
+.divTitulo p {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.btnAdc {
+    background-color: white;
+    color: #4fa1c1;
+    border: 1px solid #4fa1c1;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    width: 570px;
+    justify-content: center;
+    align-items: center;
+}
+
+.camposfiltros {
+    gap: 25px;
+    display: flex;
+    width: 570px;
+    margin: auto;
+    text-align: center;
+}
+
+.filtro, .ativos {
+    display: flex;
+    background-color: white;
+    border: 1px solid #4fa1c1;
+    color: #4fa1c1;
+    margin-top: 20px;
+}
+
+.nomesFunc {
+    background-color: white;
+    color: #4fa1c1;
+    border: 1px solid #4fa1c1;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    width: 570px;
+    border-radius: 10px;
+}
+
+
+
+.info {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    width: 90%;
+    padding: 5px;
+  }
+
+  .restante {
+    width: 10%;
+    background-color: #4fa1c1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .titulo-principal {
+    margin: 0;
+    
+  }
+  
+  .textos-menores {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .textos-menores p {
+    font-size: 14px;
+  }
+  
+
+.divstatus {
+    display: flex;
+    flex-direction: column;
+}
+
+.divdados ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.divdados li {
+    background-color: #4fa1c1;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-txt {
+    background-color: #4fa1c1;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+    height: 4px;
+    max-height: 24px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-txt p {
+    font-size: 12px;
+}
+
+
+.divetapa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 570px;
+    margin-left: 15px ;
+    justify-content: end;
+  }
+
+  .divetapa p {
+    font-size: 14px;
+  }
+
+  .divform {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 430px;
+    transition: height 0.3s ease;
+    z-index: 5;
+}
+
+.divform.expanded {
+  height: 900px; 
+  margin-bottom: 55px;
+}
+
+
+.atvin, .primeiroform, .segundoform {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.segundoform {
+  height: 600px;
+}
+
+.tteste {
+  display: flex;
+  align-items: center;
+  border: 1px solid #4fa1c1;
+  border-radius: 10px;
+  width: 90%;
+  height: 43px;
+  justify-content: space-around;
+  gap: 190px;
+  margin-top: 20px;
+}
+
+.formcadastro {
+  display: flex;
+  border: 1px solid #4fa1c1;
+  border-radius: 10px;
+  width: 90%;
+  height: 235px;
+  margin-top: 20px;
+}
+
+.nomeSex, .cpfRg {
+  display: flex;
+  width: 50%;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.nome, .cpf, .rg, .cargo {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding: 5px;
+}
+
+
+
+.inputForm {
+  border-radius: 5px;
+  height: 27px;
+  border: 1px solid #4fa1c1;
+  width: 200px;
+}
+
+.inputFormselect {
+  border-radius: 5px;
+  height: 27px;
+  border: 1px solid #4fa1c1;
+  width: 200px;
+}
+
+
+.radio-options {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.cpfRg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaçamento vertical entre os elementos */
+}
+
+.formEpi {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #4fa1c1;
+    border-radius: 10px;
+    width: 90%;
+    height: 385px;
+    margin-top: 20px;
+}
+
+.pergunta {
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+}
+
+.checkEPI {
+  display: flex;
+}
+
+.divatividade {
+  border: 1px solid #4fa1c1;
+  padding: 23px;
+  width: 420px;
+  border-radius: 10px;
+  justify-content: center;
+  margin: auto;
+}
+
+.escolherAtv {
+  width: 100%;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid #4fa1c1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.selecioneEPI {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selecioneEPI span {
+  font-size: 14px;
+}
+
+.seguranca {
+  width: 50%;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid #4fa1c1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.inputsEPI {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seguranca {
+  width: 200px;
+}
+
+.testesteste {
+  padding: 27px;
+  border: 1px solid #4fa1c1;
+  height: 130px;
+  width: 450px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.nmrCA {
+  margin-right: 41px;
+}
+
+.outraAtividade {
+  
+  border: 1px solid #4fa1c1;
+  background: none;
+  height: 40px;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.btnvoltar {
+  background: none;
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}

@@ -1,0 +1,48 @@
+
+
+
+
+
+
+.listaprogresso {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 589px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+
+.divitem1,
+.divitemresto {
+  background-color: #4fa1c1;
+  width: 90px;
+  height: 60px;
+  border-radius: 20px;
+  z-index: 5;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.dashed-line {
+  position: absolute;
+  border-top: 5px dashed #4fa1c1;
+  width: 790px;
+  z-index: 1; 
+}
+
+.divitem1 p, .divitemresto p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: #4fa1c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

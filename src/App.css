@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    overflow-y: auto;
+}
+
+.menuLateral {
+    background-color: #4FA1C1;
+    border-top-right-radius: 15px;
+    width: 58px;
+    height: 100vh;
+    position: fixed;   
+    top: 0;
+    left: 0;
+}
+
+.divteste {
+    display: flex;
+}
+
+.divbtn {
+    display: flex;
+    margin-top: 0px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.btnList {
+    border: none;
+    margin-top: 10px;
+    background: none;
+    height: 32px;
+}
+
+.divTudo {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.conteudo {
+    background-color: rgb(255, 255, 255);
+    height: 92px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.divinferior {
+    display: flex;
+    margin-top: 15px;
+    height: 430px;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.divlorem {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    border-radius: 20px;
+}
+
+.divtxt {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.divform {
+    background-color: #ffffff;
+    width: 70%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.divproxima {
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+}
+
+.nextpage {
+    background-color: #4FA1C1;
+    color: white;
+    width: 194px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 32px;
+    z-index: 1;
+}
+
+.nextpage p {
+    font-size: 14px;
+}
+

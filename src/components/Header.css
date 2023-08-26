@@ -1,0 +1,47 @@
+
+
+.divHeader {
+    background-color: #4FA1C1;
+    position: fixed;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 80%;
+    width: 58px;
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+ 
+  .btnList {
+    border: none;
+    background: none;
+    margin-bottom: 30px; 
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  
+
+  .divitem1 span, .divitemresto span {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .menu-icon {
+    color: #4FA1C1;
+  }

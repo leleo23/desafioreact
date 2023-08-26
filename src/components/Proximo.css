@@ -1,0 +1,19 @@
+.divproxima {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.nextpage {
+    background-color: #4FA1C1;
+    color: white;
+    width: 194px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 32px;
+}
+
+.nextpage p {
+    font-size: 14px;
+}
